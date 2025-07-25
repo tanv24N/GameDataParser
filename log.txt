@@ -1,0 +1,51 @@
+[7/24/2025 5:47:09 PM]
+Exception Message : '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2. The file is gamesInvalidFormat.json
+Stack :    at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 61
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 8[7/24/2025 5:47:25 PM]
+Exception Message : '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2. The file is gamesInvalidFormat.json
+Stack :    at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 61
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 8[7/24/2025 5:48:13 PM]
+Exception Message : '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2. The file is gamesInvalidFormat.json
+Stack :    at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 61
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 8
+
+
+[7/24/2025 9:36:40 PM]
+Exception Message : Could not find file 'D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\bin\Debug\net8.0\s'.
+Stack :    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at LoadFileReader.Read(String fileName) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\DataAccess\LoadFileReader.cs:line 5
+   at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\App\GameDataParserApp.cs:line 22
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 11
+
+
+[7/24/2025 9:36:48 PM]
+Exception Message : Could not find file 'D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\bin\Debug\net8.0\s'.
+Stack :    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at LoadFileReader.Read(String fileName) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\DataAccess\LoadFileReader.cs:line 5
+   at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\App\GameDataParserApp.cs:line 22
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 11
+
+
+[7/24/2025 9:38:43 PM]
+Exception Message : Could not find file 'D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\bin\Debug\net8.0\a'.
+Stack :    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at LoadFileReader.Read(String fileName) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\DataAccess\LoadFileReader.cs:line 5
+   at GameDataParserApp.Run() in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\App\GameDataParserApp.cs:line 22
+   at Program.<Main>$(String[] args) in D:\Tanvi\Code\VisualStudio\GameDataParser\GameDataParser\Program.cs:line 11
+
+
